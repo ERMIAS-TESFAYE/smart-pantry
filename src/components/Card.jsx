@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { ItemContext } from './Items';
-import { calculateDaysBetween } from '../utils.js';
+import { calculateDaysBetween } from '../utils.jsx';
 
 const Card = ({ itemKey, removeItem }) => {
   const itemData = useContext(ItemContext);
