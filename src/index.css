@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+input {
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+}
+
+input[type='file'] {
+  padding: 0;
+  margin-top: 1rem;
+}
